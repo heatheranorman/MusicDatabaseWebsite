@@ -1,0 +1,103 @@
+html {
+    
+    background: #e6e6fa;
+}
+body {
+    font-family: Franklin gothic medium;
+    background: #fff0f5;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 2em;
+    border: 1px solid black;
+}
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+h1 {
+    color: white;
+}
+main {
+}
+aside {
+    float: left;
+    width: 150px;
+}
+section {
+    float: left;
+    width: 500px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .75em 0 0;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+fieldset {
+    margin: 1em;
+    padding-top: 1em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 85%;
+}
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+td, th {
+    border: 1px solid #000000;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+fieldset {
+    margin: 0;
+    margin-bottom: .5em;
+    padding-left: 1em;
+}
+label {
+    width: 10em;
+    text-align: right;
+    margin-top: .25em;
+    margin-bottom: .5em;
+}
+
+input, select {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    width: 14em;
+}
+
+br {
+    clear: both;
+}
+span {
+    vertical-align: middle;
+}
+
+.error {
+    color: red;
+}
+.notice {
+    color: red;
+    font-size: 67%;
+    text-align: right;
+}
